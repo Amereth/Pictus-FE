@@ -1,0 +1,118 @@
+&__content {
+    padding-top: 144px;
+    text-align: center;
+    
+    .intro__course {
+        width: 64px;
+        height: 64px;
+        margin: 0 auto 15px;
+        border-radius: 50%;
+        background: linear-gradient(225deg, #FFD028 0%, #F8522D 100%);
+    } 
+
+    &_heading {
+        margin-bottom: 15px;
+        font-size: 50px;
+        line-height: 60px;
+        text-align: center;
+        font-weight: normal;
+
+        &_inner {
+            font-family: 'Solomon Sans Bold';
+        }
+    }
+
+    &_level {
+        margin: 0 auto 20px;
+        font-family: 'Solomon Sans Bold';
+        font-size: 14px;
+        line-height: 100%;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        color: $_yellow;
+    }
+
+    &_rating {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Solomon Sans Bold';
+        color: $_yellow;
+        font-size: 14px;
+    }
+
+    &_stars {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex: 0 0 54px;
+        height: 26px;
+        margin-right: 8px;
+        background-color: $_yellow;
+        border-radius: 30px;
+        color: $_dark-blue;
+
+        img {
+            margin-right: 2px;
+        }
+    }
+
+    &_line {
+        width: 242px;
+        margin: 60px auto;
+        border-top: 1px;
+        border-color: rgba(255, 255, 255, .5);
+    }
+
+    .intro__info {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 22px;
+        margin-bottom: 20px;
+
+        &_item {
+            display: flex;
+            align-items: center;
+            margin-right: 30px;
+            font-size: 18px;
+
+            &:last-child {
+                margin-right: 0;
+            }
+
+            &_green {
+                color: $_green;
+            }
+
+            img {
+                margin-right: 10px;
+            }
+        }
+
+        &_dot {
+            margin-bottom: 30px;
+
+            .intro__info_item {
+                margin-right: 15px;
+                font-size: 16px;
+
+                &:last-child {
+                    margin-right: 0;
+                }
+
+                &_dot {
+                    position: relative;
+                    top: 1px;
+                    width: 8px;
+                    height: 8px;
+                    background: rgba(255, 255, 255, 0.3);
+                    border-radius: 50%;
+                }
+            }
+        }
+    }
+
+    
+
+}

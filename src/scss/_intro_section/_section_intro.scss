@@ -1,0 +1,15 @@
+.intro {
+    height: 1000px;
+    background: url(../../assets/images/content/Background/hero-image.jpg) no-repeat;
+    background-size: cover;
+    color: white;
+
+    a {
+        color: white;
+    }
+
+    @import './_top-bar';
+    @import './_header';
+    @import './_intro_content'
+
+}

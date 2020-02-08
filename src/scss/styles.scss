@@ -1,0 +1,71 @@
+$sm: 375px;
+$md: 768px;
+$lg: 1024px;
+$xl: 1280px;
+
+$_yellow: #FED530;
+$_green: #4ED401;
+$_dark-blue: #1F3C6D;
+
+@font-face {
+    font-family: 'Solomon Sans Normal';
+    src: url('../../assets/fonts/solomon_sans_normal.woff2') format("woff2"),
+            url('../../assets/fonts/solomon_sans_normal.woff') format("woff");
+}
+
+@font-face {
+    font-family: 'Solomon Sans Bold';
+    src: url('../../assets/fonts/solomon_sans_bold.woff2') format("woff2"),
+            url('../../assets/fonts/solomon_sans_bold.woff') format("woff");
+}
+
+@font-face {
+    font-family: 'Solomon Sans Semibold';
+    src: url('../../assets/fonts/solomon_sans_semibold.woff2') format("woff2"), 
+            url('../../assets/fonts/solomon_sans_semibold.woff') format("woff");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+    font-family: 'Solomon Sans Normal';
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 30px;
+    width: 100%;
+    max-width: 1440px;
+}
+
+.button__green {
+    height: 38px;
+    padding: 10px 25px;
+    font-family: 'Solomon Sans Semibold';
+    font-size: 16px;
+    line-height: 18px;
+    color: white;
+    background-color: $_green;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+
+    &:hover {
+        background-color: white;
+        color: $_green;
+    }
+}
+
+@import './_intro_section/_section_intro';
