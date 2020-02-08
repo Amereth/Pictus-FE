@@ -4,6 +4,23 @@
     background-size: cover;
     color: white;
 
+    @media screen and (max-width: 1280px) {
+        height: 754px;
+        background-position: top left -80px;
+    }
+
+    @media screen and (max-width: 1024px) {
+        background-position: top left -210px;
+    }
+
+    @media screen and (max-width: 768px) {
+        background-position: top left -340px;
+    }
+
+    @media screen and (max-width: 375px) {
+        background-position: top left -600px;
+    }
+
     a {
         color: white;
     }
