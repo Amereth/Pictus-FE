@@ -4,15 +4,18 @@
     min-height: 40px;
     padding-top: 29px;
 
-    &__logo {
-
+    @media screen and (max-width: 768px) {
+        display: none;
     }
 
     .main-menu {
         display: flex;
-        margin-left: auto;
         font-size: 20px;
 
+        &__wrap {
+            margin-left: auto;
+        }
+        
         &__item {
             display: flex;
             align-items: center;
@@ -54,7 +57,7 @@
 
     .button__green {
         display: none;
-        height: 32px;
+        min-height: 32px;
         margin-left: 30px;
         padding: 7px 15px;
 

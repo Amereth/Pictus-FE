@@ -11,6 +11,62 @@
 <body>
 
     <section class="intro">
+
+        <div class="mob-header">
+            <a href='tel:0800330867' class="mob-header__phone"><img src="./assets/images/svgs/Icons/Phone.svg" alt="phone"></a>
+            <img class="mob-header__logo" src="./assets/images/svgs/Logo/LockinMobile.svg"></img>
+            <button class="mob-header__burger">
+                <img src="./assets/images/svgs/Icons/Burger.svg" alt="">
+            </button>
+        </div>
+
+        <nav class="mob-menu">
+
+                <ul class="main-menu">
+                    <li class="main-menu__item">
+                        <a href="#">курсы</a>
+                    </li>
+                    <li class="main-menu__item">
+                        <a href="#">вебинары</a>
+                    </li>
+                    <li class="main-menu__item">
+                        <a href="#">блог</a>
+                    </li>
+                    <li class="main-menu__item">
+                        <a href="#">контакты</a>
+                    </li>
+                </ul>
+
+                <div class="city-switch__wrapper">
+                    
+                    <ul class="city-switch">
+                        <li class="city-switch__item">Киев</li>
+                        <li class="city-switch__item">Одесса</li>
+                        <li class="city-switch__item">Днепр</li>
+                        <li class="city-switch__item">Харьков</li>
+                    </ul>
+
+                    <div class="city-switch__logo">
+                        <img src="./assets/images/svgs/Logo/OnlineOnly.svg" alt="OnlineOnly">
+                    </div>
+                    
+                </div>
+
+                <div class="lang-switch">
+                    <label class="lang-switch__item">
+                        <input type="radio" name='lang_mob' checked>
+                        <span>Рус</span>
+                    </label>
+                    <label class="lang-switch__item">
+                        <input type="radio" name='lang_mob'>
+                        <span>Укр</span>
+                    </label>
+                </div>
+
+                <button class="button__green">Консультация</button>
+
+        </nav>
+
         <div class="intro__top-bar">
             <div class="container">
 
@@ -34,8 +90,14 @@
                             <a href="tel:0800330867">0 800 33 08 67</a>
                         </div>
                         <div class="lang-switch">
-                            <div class="lang-switch__item lang-switch__item_active">Рус</div>
-                            <div class="lang-switch__item">Укр</div>
+                            <label class="lang-switch__item">
+                                <input type="radio" name='lang' checked>
+                                <span>Рус</span>
+                            </label>
+                            <label class="lang-switch__item">
+                                <input type="radio" name='lang'>
+                                <span>Укр</span>
+                            </label>
                         </div>
                     </div>
 
@@ -52,23 +114,26 @@
                     <img src="./assets/images/svgs/Logo/Lockin.svg" alt="hillel online logo">
                 </div>
 
-                <ul class="main-menu">
-                    <li class="main-menu__item">
-                        <a href="#">
-                            <span>курсы</span>
-                            <img class='main-menu__item_arrow' src="./assets/images/svgs/Icons/ArrowInline.svg" alt="">
-                        </a>
-                    </li>
-                    <li class="main-menu__item">
-                        <a href="#">вебинары</a>
-                    </li>
-                    <li class="main-menu__item">
-                        <a href="#">блог</a>
-                    </li>
-                    <li class="main-menu__item">
-                        <a href="#">контакты</a>
-                    </li>
-                </ul>
+                <nav class="main-menu__wrap">
+                    <ul class="main-menu">
+                        <li class="main-menu__item">
+                            <a href="#">
+                                <span>курсы</span>
+                                <img class='main-menu__item_arrow' src="./assets/images/svgs/Icons/ArrowInline.svg" alt="">
+                            </a>
+                        </li>
+                        <li class="main-menu__item">
+                            <a href="#">вебинары</a>
+                        </li>
+                        <li class="main-menu__item">
+                            <a href="#">блог</a>
+                        </li>
+                        <li class="main-menu__item">
+                            <a href="#">контакты</a>
+                        </li>
+                    </ul>
+                </nav>
+                
 
                 <button class="button__green">Консультация</button>
 
@@ -139,6 +204,7 @@
                 </button>
 
             </div>
+
         </div>
     </section>
 
@@ -402,6 +468,7 @@
 <script src='./src/js/jquery.3.4.1.min.js'></script>
 <script src="./src/js/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
 <script src="./dist/js/slider_settings.js"></script>
+<script src='./dist/js/menu_opener.js'></script>
 
 </body>
 </html>
