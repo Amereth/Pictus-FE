@@ -1,7 +1,7 @@
 .header {
     display: flex;
     align-items: center;
-    height: 40px;
+    min-height: 40px;
     padding-top: 29px;
 
     &__logo {
@@ -17,6 +17,20 @@
             display: flex;
             align-items: center;
             margin-right: 30px;
+
+            &:hover {
+                a {
+                    color: $_green;
+                }
+            }
+
+            &:nth-child(2),
+            &:nth-child(3) {
+
+                @media screen and (min-width: 768px) and (max-width: 1024px) {
+                    display: none;
+                }
+            }
 
             &:first-child {
                 
@@ -35,6 +49,17 @@
                 transform: rotate(90deg) scale(0.7);
                 top: 2px;
             }
+        }
+    }
+
+    .button__green {
+        display: none;
+        height: 32px;
+        margin-left: 30px;
+        padding: 7px 15px;
+
+        @media screen and (min-width: 768px) and (max-width: 1024px) {
+            display: block;
         }
     }
 }
