@@ -5,7 +5,12 @@ $xl: 1280px;
 
 $_yellow: #FED530;
 $_green: #4ED401;
+$_light-green: #F0FEE1;
+$_blue: #3462AB;
 $_dark-blue: #1F3C6D;
+$_grey: #8D949E;
+$_light-grey: #FAFAFA;
+$_dark-grey: #8D949E;
 
 @font-face {
     font-family: 'Solomon Sans Normal';
@@ -28,6 +33,7 @@ $_dark-blue: #1F3C6D;
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -69,4 +75,6 @@ a {
     }
 }
 
-@import './_intro_section/_section_intro';
+@import './_intro_section/_intro_section';
+@import './_info_section';
+@import './_footer';

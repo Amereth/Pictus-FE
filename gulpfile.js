@@ -24,5 +24,3 @@ function watchFiles () {
 }
 
 gulp.task('default', watchFiles);
-
-// gulp.task(sync);

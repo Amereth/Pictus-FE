@@ -5,8 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hillel Online</title>
     <link rel="stylesheet" href="dist/css/styles.min.css">
+    <link rel="stylesheet" href="./src/js/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="./src/js/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">
 </head>
 <body>
+
     <section class="intro">
         <div class="intro__top-bar">
             <div class="container">
@@ -67,6 +70,8 @@
                     </li>
                 </ul>
 
+                <button class="button__green">Консультация</button>
+
             </header>
 
             <div class="intro__content">
@@ -76,7 +81,7 @@
                 </div>
 
                 <h1 class="intro__content_heading">
-                    Онлайн курс <br> <span class="intro__content_heading_inner">Java Elementary</span>
+                    Онлайн курс <br> Java Elementary
                 </h1>
 
                 <div class="intro__content_level">
@@ -116,7 +121,6 @@
                     
                     <div class="intro__info_item">
                         <span>За неделю записался </span>
-                        <!-- <span><pre> </pre></span> -->
                         <span class="intro__info_item_green">1 человек</span>
                     </div>
 
@@ -125,7 +129,6 @@
 
                     <div class="intro__info_item">
                         <span>Осталось </span>
-                        <!-- <span><pre> </pre></span> -->
                         <span class="intro__info_item_green">3 места</span>
                     </div>
 
@@ -138,5 +141,267 @@
             </div>
         </div>
     </section>
+
+    <main class="info">
+        <div class="container">
+
+            <h2 class="info__heading">
+                Хватит страдать, <br>начни писать на Java!
+            </h2>
+    
+            <p class="info__text">
+                Курс Java Elementary предназначен для тех, 
+                кто желает получить специальность Java Developer 
+                и планирует развивать свою будущую профессиональную 
+                деятельность в IT-сфере. В течение обучения 
+                вы получите знания, необходимые для создания 
+                Java-приложений. Этот курс рассчитан на людей 
+                с базовыми знаниями в любом С-подобном языке 
+                программирования.
+            </p>
+    
+            <p class="info__text info__text_blue">
+                <span>Цель курса — </span>
+                дать необходимый 
+                объем знаний для прохождения собеседования на 
+                должность Junior Java Developer.
+            </p>
+    
+            <p class="info__text info__text_blue">
+                <span>Курс поможет вам</span>
+                получить знания, необходимые 
+                для создания реальных Java-приложений.
+            </p>
+
+            <div class="info__note">
+
+                <p>
+                    <span class="info__note_bold">Курс рассчитан</span>
+                    на людей, окончивших 
+                    курс Introduction Java, или с базовыми 
+                    знаниями в любом С-подобном языке программирования.
+                </p>
+
+                <p>
+                    <span class="info__note_bold">
+                        Для записи требуется пройти тест.
+                    </span>
+                </p>
+
+                <button class="button__green">Пройти тест</button>
+
+            </div>
+
+            <div class="info__tech">
+
+                <h3 class="info__tech_heading">
+                    Изучаемые технологии
+                </h3>
+
+                <div class="info__tech_inner">
+
+                    <div class="info__tech_item">
+                        <img src="./assets/images/content/Technologies/Java.png" alt="Java">
+                        <span>Java</span>
+                    </div>
+                    <div class="info__tech_item">
+                        <img src="./assets/images/content/Technologies/Maven.png" alt="Maven">
+                        <span>Maven</span>
+                    </div>
+                    <div class="info__tech_item">
+                        <img src="./assets/images/content/Technologies/Idea.png" alt="Illij idea">
+                        <span>Illij idea</span>
+                    </div>
+                    <div class="info__tech_item">
+                        <img src="./assets/images/content/Technologies/Json.png" alt="JSON">
+                        <span>JSON</span>
+                    </div>
+                    <div class="info__tech_item">
+                        <img src="./assets/images/content/Technologies/Git.png" alt="Git">
+                        <span>Git</span>
+                    </div>
+                    <div class="info__tech_item">
+                        <img src="./assets/images/content/Technologies/Rest.png" alt="REST">
+                        <span>REST</span>
+                    </div>
+                    <div class="info__tech_item">
+                        <img src="./assets/images/content/Technologies/Maven.png" alt="Maven">
+                        <span>Maven</span>
+                    </div>
+                    <div class="info__tech_item">
+                        <img src="./assets/images/content/Technologies/Git.png" alt="Git">
+                        <span>Git</span>
+                    </div>
+                    <div class="info__tech_item">
+                        <img src="./assets/images/content/Technologies/Java.png" alt="Java">
+                        <span>Java</span>
+                    </div>
+                    <div class="info__tech_item">
+                        <img src="./assets/images/content/Technologies/Json.png" alt="JSON">
+                        <span>JSON</span>
+                    </div>
+                    <div class="info__tech_item">
+                        <img src="./assets/images/content/Technologies/Rest.png" alt="REST">
+                        <span>REST</span>
+                    </div>
+                    <div class="info__tech_item">
+                        <img src="./assets/images/content/Technologies/Idea.png" alt="Illij idea">
+                        <span>Illij idea</span>
+                    </div>
+
+                </div>
+                
+            </div>
+            
+        </div>
+    </main>
+
+    <footer class="teacher">
+        <div class="container">
+
+            <h3 class="teacher__heading">
+                Преподаватели курса
+            </h3>
+
+            <div class="teacher__text">
+                Вас будут обучать практикующие специалисты, работающие в топовых компаниях.
+            </div>
+
+            <div class="teacher__carousel owl-carousel">
+                
+                <div class="teacher__carousel_item">
+                    <img src="./assets/images/content/Coaches/Coach_1.jpg" 
+                         alt="наталья кравченко" 
+                         class="teacher__carousel_photo">
+                    <div class="teacher__carousel_name">наталья кравченко</div>
+                    <div class="teacher__carousel_rank">Senior Java Software Engineer</div>
+                    <img src="./assets/images/svgs/Companies/Edunav.svg"
+                         alt="Edunav"
+                         class="teacher__carousel_company">
+                    </img>
+                    <a href="" class="teacher__carousel_link">
+                        <img src="./assets/images/svgs/Icons/ArrowInline.svg" alt="arrrow">
+                    </a>
+                </div>
+
+                <div class="teacher__carousel_item">
+                    <img src="./assets/images/content/Coaches/Coach_2.jpg" 
+                         alt="Станислав Пархоменко" 
+                         class="teacher__carousel_photo">
+                    <div class="teacher__carousel_name">Станислав Пархоменко</div>
+                    <div class="teacher__carousel_rank">Java Senior Engineer</div>
+                    <img src="./assets/images/svgs/Companies/Lohika.svg" 
+                         alt="lohika"
+                         class="teacher__carousel_company">
+                    <a href="" class="teacher__carousel_link">
+                        <img src="./assets/images/svgs/Icons/ArrowInline.svg" alt="arrrow">
+                    </a>
+                </div>
+
+                <div class="teacher__carousel_item">
+                    <img src="./assets/images/content/Coaches/Coach_3.jpg" 
+                         alt="Владимир Сулевский" 
+                         class="teacher__carousel_photo">
+                    <div class="teacher__carousel_name">Владимир Сулевский</div>
+                    <div class="teacher__carousel_rank">Senior Java Developer</div>
+                    <img src="./assets/images/svgs/Companies/Oracle.svg" 
+                         alt="Oracle"
+                         class="teacher__carousel_company">
+                    <a href="" class="teacher__carousel_link">
+                        <img src="./assets/images/svgs/Icons/ArrowInline.svg" alt="arrrow">
+                    </a>
+                </div>
+
+                <div class="teacher__carousel_item">
+                    <img src="./assets/images/content/Coaches/Coach_4.jpg" 
+                         alt="Максим Фарсиков" 
+                         class="teacher__carousel_photo">
+                    <div class="teacher__carousel_name">Максим Фарсиков</div>
+                    <div class="teacher__carousel_rank">Senior Java Software Engineer</div>
+                    <img class="teacher__carousel_company">
+                    <a href="" class="teacher__carousel_link">
+                        <img src="./assets/images/svgs/Icons/ArrowInline.svg" alt="arrrow">
+                    </a>
+                </div>
+
+                <div class="teacher__carousel_item">
+                    <img src="./assets/images/content/Coaches/Coach_1.jpg" 
+                         alt="наталья кравченко" 
+                         class="teacher__carousel_photo">
+                    <div class="teacher__carousel_name">наталья кравченко</div>
+                    <div class="teacher__carousel_rank">Senior Java Software Engineer</div>
+                    <img src="./assets/images/svgs/Companies/Edunav.svg"
+                         alt="Edunav"
+                         class="teacher__carousel_company">
+                    </img>
+                    <a href="" class="teacher__carousel_link">
+                        <img src="./assets/images/svgs/Icons/ArrowInline.svg" alt="arrrow">
+                    </a>
+                </div>
+
+                <div class="teacher__carousel_item">
+                    <img src="./assets/images/content/Coaches/Coach_2.jpg" 
+                         alt="Станислав Пархоменко" 
+                         class="teacher__carousel_photo">
+                    <div class="teacher__carousel_name">Станислав Пархоменко</div>
+                    <div class="teacher__carousel_rank">Java Senior Engineer</div>
+                    <img src="./assets/images/svgs/Companies/Lohika.svg" 
+                         alt="lohika"
+                         class="teacher__carousel_company">
+                    <a href="" class="teacher__carousel_link">
+                        <img src="./assets/images/svgs/Icons/ArrowInline.svg" alt="arrrow">
+                    </a>
+                </div>
+
+                <div class="teacher__carousel_item">
+                    <img src="./assets/images/content/Coaches/Coach_3.jpg" 
+                         alt="Владимир Сулевский" 
+                         class="teacher__carousel_photo">
+                    <div class="teacher__carousel_name">Владимир Сулевский</div>
+                    <div class="teacher__carousel_rank">Senior Java Developer</div>
+                    <img src="./assets/images/svgs/Companies/Oracle.svg" 
+                         alt="Oracle"
+                         class="teacher__carousel_company">
+                    <a href="" class="teacher__carousel_link">
+                        <img src="./assets/images/svgs/Icons/ArrowInline.svg" alt="arrrow">
+                    </a>
+                </div>
+
+                <div class="teacher__carousel_item">
+                    <img src="./assets/images/content/Coaches/Coach_4.jpg" 
+                         alt="Максим Фарсиков" 
+                         class="teacher__carousel_photo">
+                    <div class="teacher__carousel_name">Максим Фарсиков</div>
+                    <div class="teacher__carousel_rank">Senior Java Software Engineer</div>
+                    <img class="teacher__carousel_company">
+                    <a href="" class="teacher__carousel_link">
+                        <img src="./assets/images/svgs/Icons/ArrowInline.svg" alt="arrrow">
+                    </a>
+                </div>
+
+                <div class="teacher__carousel_item">
+                    <img src="./assets/images/content/Coaches/Coach_1.jpg" 
+                         alt="наталья кравченко" 
+                         class="teacher__carousel_photo">
+                    <div class="teacher__carousel_name">наталья кравченко</div>
+                    <div class="teacher__carousel_rank">Senior Java Software Engineer</div>
+                    <img src="./assets/images/svgs/Companies/Edunav.svg"
+                         alt="Edunav"
+                         class="teacher__carousel_company">
+                    </img>
+                    <a href="" class="teacher__carousel_link">
+                        <img src="./assets/images/svgs/Icons/ArrowInline.svg" alt="arrrow">
+                    </a>
+                </div>
+
+            </div>
+
+        </div>
+    </footer>
+
+<script src='./src/js/jquery.3.4.1.min.js'></script>
+<script src="./src/js/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+<script src="./dist/js/slider_settings.js"></script>
+
 </body>
 </html>
