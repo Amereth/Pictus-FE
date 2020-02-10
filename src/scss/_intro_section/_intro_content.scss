@@ -78,7 +78,7 @@
         justify-content: center;
         align-items: center;
         max-width: 540px;
-        margin: 0 auto 20px;
+        margin: 0 auto 5px;
         min-height: 22px;
 
         @media screen and (max-width: 768px) {
@@ -87,12 +87,17 @@
 
         @media screen and(max-width: 415px) {
             justify-content: space-around;
+
+            &_item:first-child {
+                margin-right: 15px;
+            }
         }
 
         &_item {
             display: flex;
             align-items: center;
             margin-right: 30px;
+            margin-bottom: 15px;
             font-size: 18px;
             white-space: nowrap;
 

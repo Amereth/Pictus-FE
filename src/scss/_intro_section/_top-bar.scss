@@ -21,12 +21,15 @@
     }
 
     &__item {
-        font-family: 'Solomon Sans Bold';
+        color: white;
         margin: 5.5px 0 5.5px;
         padding: 0 13px 0 12px;
+        background: none;
+        border: none;
+        border-right: 1px solid rgba(255, 255, 255, .2);
+        font-family: 'Solomon Sans Bold';
         font-size: 12px;
         line-height: 15px;
-        border-right: 1px solid rgba(255, 255, 255, .2);
         cursor: pointer;
 
         &:first-child {

@@ -1,11 +1,11 @@
 .intro {
-    height: 1000px;
+    min-height: 1000px;
     background: url(../../assets/images/content/Background/hero-image.jpg) no-repeat;
     background-size: cover;
     color: white;
 
     @media screen and (max-width: 1280px) {
-        height: 754px;
+        min-height: 754px;
         background-position: top left -80px;
     }
 
@@ -16,7 +16,7 @@
     @media screen and (max-width: 768px) {
         position: relative;
         background-position: top left -340px;
-        height: 651px;
+        min-height: 651px;
     }
 
     @media screen and (max-width: 375px) {
@@ -29,6 +29,12 @@
 
     @import './_top-bar';
     @import './_header';
-    @import './_intro_content'
+    @import './_intro_content';
 
+}
+
+@media screen and (max-width: 375px) {
+    .intro > .container {
+        padding: 0 20px;
+    }
 }
