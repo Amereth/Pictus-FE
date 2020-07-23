@@ -1,2 +1,2 @@
 # Pictus FE
- test from Hillel HR
+ test for Pictus
